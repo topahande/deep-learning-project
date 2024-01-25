@@ -17,6 +17,10 @@ The aim of this project is to build a image classification service using fruit i
 | Tomato 4 (shortened as Tomato)   |             359                  |             120                    |             160              | 
 | Watermelon                       |             356                  |             119                    |             157              | 
 
+Some example images from the data are as follows:
+
+![data_outlook](https://github.com/topahande/deep-learning-project/blob/main/data_outlook.png)
+
 ## Exploratory data analysis (EDA)   
 
 Exploratory data analysis (EDA) can be found in [notebook.ipynb](https://github.com/topahande/deep-learning-project/blob/main/notebook.ipynb). As part of EDA, I checked the number of images in the train, test, and validation sets and visualised some of the images to get an idea of how the images look like. 
