@@ -19,7 +19,7 @@ The aim of this project is to build a image classification service using fruit i
 
 Some example images from the data are as follows:
 
-![data_outlook](https://github.com/topahande/deep-learning-project/blob/main/data_outlook.png)
+![data_example](https://github.com/topahande/deep-learning-project/blob/main/data_example.png)
 
 ## Exploratory data analysis (EDA)   
 
