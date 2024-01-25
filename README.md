@@ -45,7 +45,7 @@ To reproduce these steps, perform the following steps:
 4) Run the command: ``python convert_model.py``  
 
 
-### Model deployment
+## Model deployment
 
 The final model was deployed using Flask with Gunicorn as WSGI HTTP server (see [predict.py](https://github.com/topahande/deep-learning-project/blob/main/predict.py) and [predict_test.py](https://github.com/topahande/deep-learning-project/blob/main/predict_test.py)). Note that Gunicorn works only on Linux and Mac OS. If you are on Windows computer, you could try using waitress instead of Gunicorn (if so, also remember to edit the [requirements.txt](https://github.com/topahande/deep-learning-project/blob/main/requirements.txt) file accordingly).  
 
@@ -53,7 +53,7 @@ The final model was deployed using Flask with Gunicorn as WSGI HTTP server (see 
 
 But before this, let's first deal with the dependency and environment management.
 
-### Dependency and environment management  
+## Dependency and environment management  
 
 For dependency and environment management, I created a conda environment named ``dl-project`` with python version 3.9 (note that the dependency ``tflite_runtime`` does not work with later versions of python), and loaded the dependencies using the file [requirements.txt](https://github.com/topahande/deep-learning-project/blob/main/requirements.txt).  
 
@@ -72,7 +72,7 @@ In another  terminal, run the following commands:
 
 The output should be ``Banana`` :)
 
-### Containerization  
+## Containerization  
 
 Containerization was done using Docker (see [Dockerfile](https://github.com/topahande/deep-learning-project/blob/main/Dockerfile)). Before running the following codes, please install Docker Desktop on your computer and start it.  
 
