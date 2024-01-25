@@ -27,7 +27,7 @@ Exploratory data analysis (EDA) can be found in [notebook.ipynb](https://github.
 
 ## Model training  
 
-For model training, I used the Xception convolutional neural network (CNN) model and trained a dense layer on top of it using the codes in [notebook.ipynb](https://github.com/topahande/deep-learning-project/blob/main/notebook.ipynb). The notebook was run in [Saturn Cloud](https://saturncloud.io/) where I was provided with enough GPU hours. If you would like to run this notebook in a cloud environment, please remember to clone.  
+For model training, I borrowed the Xception convolutional neural network (CNN) model and trained a dense layer on top of it using the codes in [notebook.ipynb](https://github.com/topahande/deep-learning-project/blob/main/notebook.ipynb). I used TensorFlow and Keras libraries. The notebook was run in [Saturn Cloud](https://saturncloud.io/) where I was provided with enough GPU hours. If you would like to run this notebook in a cloud environment, please remember to clone.  
 
 During the training process, I compared the validation accuracy by trying different values of learning rate and dropout rate. As a result, I decided to set the learning rate to 0.01 and I prefered not to use dropout at all as it did not result in a big improvement and the simpler model without dropout had already performed very well with accuracy rates close to 1 both in training and validation sets. 
 
